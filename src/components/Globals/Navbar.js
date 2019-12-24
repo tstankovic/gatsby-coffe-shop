@@ -15,7 +15,7 @@ export default function Navbar() {
     },
     {
       id: 2,
-      path: "/about",
+      path: "/about/",
       text: "about",
     },
   ])

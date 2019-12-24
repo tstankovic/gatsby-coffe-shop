@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import Img from "gatsby-image"
 
 import Title from "../Globals/Title"
@@ -28,7 +28,7 @@ export default function Menu(props) {
     return (
       <section className="menu py-5">
         <div className="container">
-          <Title title="our menu" />
+          <Title title="menu" />
           {/* categories */}
           <div className="row mb-5">
             <div className="col-10 mx-auto text-center">

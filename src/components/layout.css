@@ -19,7 +19,7 @@ h4,
 h5,
 h6 {
   font-family: "Courier New", Courier, monospace !important;
-  letter-spacing: 0.25rem !important;
+  letter-spacing: 0.1rem !important;
 }
 
 .text-yellow {
