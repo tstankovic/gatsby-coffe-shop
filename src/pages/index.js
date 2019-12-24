@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
         title="coffee bar"
         styleClass="default-background"
       />
-      <Info />
+      <Info link={true} />
       <Menu items={data.menu} />
       <Products />
       <Contact />

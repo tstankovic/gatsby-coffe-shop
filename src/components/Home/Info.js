@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Title from "../Globals/Title"
 
-export default function Info() {
+export default function Info(props) {
   return (
     <section className="py-5">
       <div className="container">
@@ -19,11 +19,13 @@ export default function Info() {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <Link to="/about/">
-              <button className="btn text-uppercase btn-yellow">
-                about page
-              </button>
-            </Link>
+            {props.link && (
+              <Link to="/about/">
+                <button className="btn text-uppercase btn-yellow">
+                  about page
+                </button>
+              </Link>
+            )}
           </div>
         </div>
       </div>
