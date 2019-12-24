@@ -59,8 +59,10 @@ export default function Menu(props) {
                   </div>
                   <div className="flex-grow-1 px-3">
                     <div className="d-flex justify-content-between">
-                      <h6 className="mb-0">{node.title}</h6>
-                      <h6 className="mb-0 text-yellow">${node.price}</h6>
+                      <h6 className="mb-0 font-weight-bold">{node.title}</h6>
+                      <h6 className="mb-0 text-yellow font-weight-bold">
+                        ${node.price}
+                      </h6>
                     </div>
                     <p className="text-muted">
                       <small>{node.description.description}</small>
